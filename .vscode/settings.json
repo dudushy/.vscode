@@ -3,12 +3,12 @@
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "python.languageServer": "Pylance",
   "mssql.connections": [
-    {
-      "server": "{{put-server-name-here}}",
-      "database": "{{put-database-name-here}}",
-      "user": "{{put-username-here}}",
-      "password": ""
-    }
+      {
+          "server": "{{put-server-name-here}}",
+          "database": "{{put-database-name-here}}",
+          "user": "{{put-username-here}}",
+          "password": ""
+      }
   ],
   "mssql.intelliSense.enableErrorChecking": false,
   "workbench.colorTheme": "Dracula",
@@ -21,26 +21,26 @@
   "liveshare.allowInvites": "all",
   "code-runner.runInTerminal": true,
   "workbench.editorAssociations": {
-    "*.ipynb": "jupyter-notebook"
+      "*.ipynb": "jupyter-notebook"
   },
   "workbench.iconTheme": "vscode-icons",
   "terminal.integrated.commandsToSkipShell": [
-    "psl.stepIn",
-    "psl.stepOut",
-    "psl.stepOver",
-    "psl.sendToHostTerminal",
-    "language-julia.interrupt"
+      "psl.stepIn",
+      "psl.stepOut",
+      "psl.stepOver",
+      "psl.sendToHostTerminal",
+      "language-julia.interrupt"
   ],
   "notebook.cellToolbarLocation": {
-    "default": "right",
-    "jupyter-notebook": "left"
+      "default": "right",
+      "jupyter-notebook": "left"
   },
   "java.help.firstView": "gettingStarted",
   "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
   },
   "julia.symbolCacheDownload": true,
   "julia.enableTelemetry": false,
@@ -58,31 +58,31 @@
   "RainbowBrackets.highlightActiveScope": true,
   "RainbowBrackets.independentPairColors": [],
   "RainbowBrackets.consecutivePairColors": [
-    "()",
-    "[]",
-    "{}",
-    [
-      "gold",
-      "lime",
-      "magenta",
-      "cyan",
-      "springgreen",
-      "orange",
-      "hotpink",
-      "royalblue",
-      "salmon",
-      "orchid"
-    ],
-    "Revioletd"
+      "()",
+      "[]",
+      "{}",
+      [
+          "gold",
+          "lime",
+          "magenta",
+          "cyan",
+          "springgreen",
+          "orange",
+          "hotpink",
+          "royalblue",
+          "salmon",
+          "orchid"
+      ],
+      "Revioletd"
   ],
   "workbench.startupEditor": "none",
   "redhat.telemetry.enabled": true,
   "liveSassCompile.settings.showAnnouncements": null,
   "[scss]": {
-    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+      "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+      "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
@@ -90,23 +90,57 @@
   "prettier.printWidth": 120,
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
-    "*": true,
-    "yaml": true,
-    "plaintext": false,
-    "markdown": true
+      "*": true,
+      "plaintext": false,
+      "markdown": true,
+      "scminput": false,
+      "yaml": true
   },
   "js/ts.implicitProjectConfig.experimentalDecorators": true,
   "editor.minimap.size": "fill",
   "[python]": {
-    "editor.formatOnType": true,
-    "editor.defaultFormatter": "ms-python.autopep8"
+      "editor.formatOnType": true,
+      "editor.defaultFormatter": "ms-python.autopep8"
   },
   "[yaml]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
+      "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "html.format.wrapLineLength": 0,
   "html.validate.styles": false,
-  "php.validate.executablePath": "",
+  "php.validate.executablePath": "C:\\php",
   "editor.minimap.enabled": false,
-  "settingsSync.ignoredExtensions": []
+  "settingsSync.ignoredExtensions": [],
+  "html.format.contentUnformatted": "",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "never"
+  },
+  "eslint.options": {},
+  "eslint.validate": [
+      "javascript",
+  ],
+  "eslint.workingDirectories": [
+      {
+          "mode": "auto"
+      }
+  ],
+  "[css]": {
+      "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "dart.flutterSdkPath": "C:\\flutter",
+  "cSpell.diagnosticLevel": "Hint",
+  "cSpell.language": "en,pt-BR",
+  "editor.stickyScroll.enabled": true,
+  "yaml.schemas": {
+      "https://json.schemastore.org/github-workflow.json": [
+          "*.github/workflows/*.yaml",
+          "*.github/workflows/*.yml",
+      ],
+      "https://json.schemastore.org/github-action.json": [
+          "action.yaml",
+          "action.yml",
+      ]
+  }
 }
